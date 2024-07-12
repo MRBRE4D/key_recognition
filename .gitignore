@@ -1,0 +1,8 @@
+.conda
+envs/
+pkgs/
+
+checkpoints/
+data/
+env/
+*.pth
