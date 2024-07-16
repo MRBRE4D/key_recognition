@@ -1,0 +1,21 @@
+# path: /path/to/your/dataset  # 數據集根目錄
+# train: images/train  # 訓練集圖片相對路徑
+# val: images/val  # 驗證集圖片相對路徑
+
+# 類別
+# nc: 3  # 類別數量
+# names: ['key', 'key_head', 'key_handle']  # 類別名稱
+
+
+
+path: C:/Users/Bread/Documents/bread/fast-ai-pytorch/dataset/keys  # 數據集根目錄
+train: train/images  # 訓練集圖片相對路徑
+val: valid/images  # 驗證集圖片相對路徑
+test: test/images  # 測試集圖片相對路徑
+
+nc: 2  # 類別數量
+names: ['person','key']  # 類別名稱
+
+
+
+

@@ -276,8 +276,8 @@ def test(use_best_model=True):
 
 if __name__ == "__main__":
     # 可以在這裡選擇執行訓練或測試
-    train(resume=True)  # 執行訓練，並從上次的檢查點繼續
-    # test(use_best_model=True)  # 執行測試，使用最佳模型
+    # train(resume=True)  # 執行訓練，並從上次的檢查點繼續
+    test(use_best_model=True)  # 執行測試，使用最佳模型
     pass
 
 
