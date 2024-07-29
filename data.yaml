@@ -13,8 +13,8 @@ train: train/images  # 訓練集圖片相對路徑
 val: valid/images  # 驗證集圖片相對路徑
 test: test/images  # 測試集圖片相對路徑
 
-nc: 2  # 類別數量
-names: ['person','key']  # 類別名稱
+nc: 3  # 類別數量
+names: ['key','key_head','text']  # 類別名稱
 
 
 

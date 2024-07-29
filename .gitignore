@@ -1,10 +1,7 @@
 .conda
-envs/
-pkgs/
 
 checkpoints/
 data/
 dataset/
-env/
-*.pth
 runs/
+*.pth

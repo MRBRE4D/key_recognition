@@ -4,9 +4,9 @@ import os
 import argparse
 import yaml
 import torch
+import pytesseract
 
-
-def train_model(resume=False, imgsz=1280, batch=None):
+def train_model(resume=False, imgsz=853, batch=None):
     """ 訓練鑰匙檢測模型，支持斷點續訓和靈活的參數設置 """
     # 初始化 YOLO 模型
     if resume:
