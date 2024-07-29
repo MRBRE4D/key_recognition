@@ -1,5 +1,5 @@
 .conda
-yolov5
+yolov5/
 checkpoints/
 data/
 dataset/
